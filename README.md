@@ -160,7 +160,7 @@ Project Apollo는 한글 워드 프로세서(HWP/HWPX)를 악용한 표적 문�
 - GUI(데모)와 CLI(헤드리스) 두 가지 진입점 제공
 
 ## 요구사항
-- Go >= 1.25 (모듈의 `go.mod` 기준)
+- Go >= 1.26 (모듈의 `go.mod` 기준)
 - (옵션) GUI 모드: `fyne` 기반 UI 관련 라이브러리가 필요합니다
 - (Windows 크로스빌드 필요 시) `zig` 설치 및 환경설정 필요 (Makefile에서 Zig를 사용하여 Windows용 바이너리를 크로스컴파일합니다)
 
